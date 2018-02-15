@@ -1,0 +1,75 @@
+.masthead {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/bg-masthead.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  color: #fff;
+}
+
+.masthead h1 {
+  font-family: 'bonkersregular';
+}
+
+.masthead h1 .maior {
+  font-size: 64px;
+}
+
+.masthead h1 .hiper {
+  font-size: 74px;
+}
+
+.masthead h4 {
+  font-family: 'exo_2regular';
+  font-size: 24px;
+  text-align: center;
+}
+
+.masthead h4 .black {
+  font-family: 'exo_2black';
+  font-size: 24px;
+}
+
+.masthead p {
+  font-family: 'exo_2regular';
+  font-size: 16.8px;
+  text-align: left;
+}
+
+.masthead p .black {
+  font-family: 'exo_2black';
+  font-size: 16.8px;
+}
+
+.header {
+  height: 71px;
+  margin-top: 17px;
+  background-image: url(../img/bg-header.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.logo {
+  width: 234px;
+  height: 287px;
+  margin-top: -17px;
+  background-image: url(../img/bg-logo.png);
+  background-repeat: no-repeat;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+  padding-top: 24px;
+}
+
+.btn-inscreva {
+  font-family: 'ralewaysemibold';
+  font-size: 24px;
+  width: 200px;
+  height: 46px;
+  margin-top: 50px;
+  background-color: #e84545;
+  color: #fff;
+}
