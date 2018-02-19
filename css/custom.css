@@ -1,5 +1,27 @@
-#masthead {
-  height: 100vh;
+body {
+  overflow-x: hidden;
+}
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.isDisabled > a {
+  color: currentColor;
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.badge {
+  margin-top: -20px;
+  margin-left: -30px;
+  position: absolute;
+}
+
+#principal {
+  min-height: 100vh;
   overflow: hidden;
   background-image: url(../img/bg-masthead.png);
   background-repeat: no-repeat;
@@ -8,42 +30,56 @@
   color: #fff;
 }
 
-#masthead h1 {
+#principal h1 {
   font-family: 'bonkersregular';
 }
 
-#masthead h1 .maior {
+#principal h1 .maior {
   font-size: 64px;
 }
 
-#masthead h1 .hiper {
+#principal h1 .hiper {
   font-size: 74px;
 }
 
-#masthead h4 {
+#principal h4 {
   font-family: 'exo_2regular';
   font-size: 24px;
   text-align: center;
 }
 
-#masthead h4 .black {
+#principal h4 .black {
   font-family: 'exo_2black';
   font-size: 24px;
 }
 
-#masthead p {
+#principal p {
   font-family: 'exo_2regular';
   font-size: 16.8px;
   text-align: left;
 }
 
-#masthead p .black {
+#principal p .black {
   font-family: 'exo_2black';
   font-size: 16.8px;
 }
 
+#masthead-header {
+  width: 100vw;
+  margin-top: 17px;
+  background-image: url(../img/bg-header.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: 1;
+}
+
+.fixar {
+  position: fixed;
+  margin-top: 0 !important;
+}
+
 #masthead-body {
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 .logo {
@@ -88,17 +124,10 @@
 #menu-principal {
   font-family: 'ralewaybold';
   font-size: 13px;
-  width: 100vw;
-  background-image: url(../img/bg-header.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  position: fixed;
-  margin-top: 17px;
   z-index: 1;
 }
 
 #menu-principal ul {
-  margin-right: 15vw !important;
   list-style: none;
   height: auto;
   padding: 24px;
@@ -181,7 +210,8 @@
 }
 
 #inscricao {
-  height: 370px;
+  padding-top: 130px;
+  padding-bottom: 50px;
 }
 
 #footer {
