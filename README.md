@@ -1,1 +1,1 @@
-# pyne2018
+# Python Nordeste 2018
