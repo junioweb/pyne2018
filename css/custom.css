@@ -20,8 +20,12 @@ body {
   position: absolute;
 }
 
+iframe .js-d-track-event-links {
+  overflow: hidden !important;
+}
+
 #principal {
-  min-height: 100vh;
+  height: 750px;
   overflow: hidden;
   background-image: url(../img/bg-masthead.png);
   background-repeat: no-repeat;
@@ -153,9 +157,17 @@ body {
 #sobre-evento {
   font-family: 'ralewayregular';
   font-size: 14px;
-  height: 100vh;
   padding-top: 130px;
   text-align: center;
+}
+
+#sobre-evento a {
+  text-decoration: none;
+  color: #000;
+}
+
+#sobre-evento a:hover {
+  color: #e84545;
 }
 
 #sobre-evento h6 {
@@ -234,4 +246,8 @@ body {
 #footer-barra {
   background-color: #690923;
   height: 94px;
+}
+
+#footer-barra small {
+  padding-top: 30px;
 }
