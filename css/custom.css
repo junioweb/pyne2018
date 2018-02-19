@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+a:hover {
+  color: #fff !important;
+}
+
 .isDisabled {
   cursor: not-allowed;
   opacity: 0.5;
@@ -18,10 +22,6 @@ body {
   margin-top: -20px;
   margin-left: -30px;
   position: absolute;
-}
-
-iframe .js-d-track-event-links {
-  overflow: hidden !important;
 }
 
 #principal {
@@ -167,7 +167,7 @@ iframe .js-d-track-event-links {
 }
 
 #sobre-evento a:hover {
-  color: #e84545;
+  color: #e84545 !important;
 }
 
 #sobre-evento h6 {
