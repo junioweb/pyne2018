@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'bonkersregular';
+    src: url('fonts/bonkers/bonkers-webfont.woff2') format('woff2'),
+         url('fonts/bonkers/bonkers-webfont.woff') format('woff'),
+         url('fonts/bonkers/bonkers-webfont.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2regular';
+    src: url('fonts/exo2/exo2-regular-webfont.woff2') format('woff2'),
+         url('fonts/exo2/exo2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2black';
+    src: url('fonts/exo2/exo2-black-webfont.woff2') format('woff2'),
+         url('fonts/exo2/exo2-black-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway/raleway-light-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('fonts/raleway/raleway-semibold-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'timesitalic';
+    src: url('fonts/times/times_italic-webfont.woff2') format('woff2'),
+         url('fonts/times/times_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
