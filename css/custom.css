@@ -32,6 +32,7 @@ a:hover {
   background-attachment: fixed;
   background-position: center top;
   color: #fff;
+  text-align: center;
 }
 
 #principal h1 {
@@ -49,7 +50,6 @@ a:hover {
 #principal h4 {
   font-family: 'exo_2regular';
   font-size: 24px;
-  text-align: center;
 }
 
 #principal h4 .black {
@@ -60,7 +60,6 @@ a:hover {
 #principal p {
   font-family: 'exo_2regular';
   font-size: 16.8px;
-  text-align: left;
 }
 
 #principal p .black {
@@ -188,6 +187,11 @@ a:hover {
   padding-bottom: 130px;
 }
 
+#keynotes img {
+  display: block;
+  margin: auto;
+}
+
 #keynotes h4 {
   font-size: 22px;
   padding-top: 30px;
@@ -250,4 +254,101 @@ a:hover {
 
 #footer-barra small {
   padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  #masthead-header {
+    margin-top: 0px;
+    position: fixed;
+  }
+
+  #masthead-body {
+    padding-top: 90px;
+  }
+
+  #principal {
+    height: 570px;
+  }
+
+  #principal h1 .maior {
+    font-size: 48px;
+  }
+
+  #principal h1 .hiper {
+    font-size: 48px;
+  }
+
+  #principal h4 {
+    padding: 15px 0 15px 0;
+    font-size: 17px;
+  }
+
+  #principal h4 .black {
+    font-size: 17px;
+  }
+
+  #principal p {
+    font-size: 17px;
+  }
+
+  #principal p .black {
+    font-size: 17px;
+  }
+
+  .btn-inscreva {
+    margin-top: 8px;
+  }
+
+  .navbar-light .navbar-toggler {
+    background-color: #fff;
+    border-color: #fff;
+  }
+
+  #menu-principal ul {
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+  }
+
+  #menu-principal ul li {
+    width: 100%;
+    text-align: left;
+  }
+
+  #menu-principal ul li a {
+    color: #000;
+  }
+
+  #menu-principal ul li a:hover {
+    color: #7f7f7f !important;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .badge {
+    margin-top: 0px;
+    margin-left: 5px;
+    position: absolute;
+  }
+
+  .logo-secundaria {
+    width: 200px;
+    height: 56px;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+  .logo-secundaria img {
+    display: block;
+    margin: auto;
+    padding-top: 7px;
+  }
+
+  #footer-barra small {
+    padding-top: 20px;
+  }
 }
