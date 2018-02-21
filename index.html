@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:image" content="img/avatar.png">
 
+
+    <!-- ICO's -->
+    <link rel="shortcut icon" type="image/png" href="/img/icons/favicon-16x16.png"/>
+    <link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -35,26 +58,31 @@
               <a href="#principal"><img src="img/logo-secundaria.png" alt="Marca secundária do evento"></a>
             </div>
             <div class="offset-lg-2 col-lg-8">
-              <nav id="menu-principal">
-                <ul>
-                  <li><a class="scrollSuave" href="#sobre-evento">SOBRE O EVENTO</a></li>
-                  <li><a href="#keynotes">KEYNOTES</a></li>
-                  <li>
-                    <span class="isDisabled">
-                      <a href="#">PROGRAMAÇÃO <span class="badge badge-pill badge-warning">Breve</span></a>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="isDisabled">
-                      <a href="#">PATROCINADORES <span class="badge badge-pill badge-warning">Breve</span></a></li>
-                    </span>
-                  <li><a href="#inscricao">INSCREVA-SE</a></li>
-                  <li>
-                    <span class="isDisabled">
-                      <a href="#">HOTÉIS <span class="badge badge-pill badge-warning">Breve</span></a>
-                    </span>
-                  </li>
-                </ul>
+              <nav class="navbar navbar-toggleable-md navbar-expand-md navbar-light bg-faded" id="menu-principal">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#sobre-evento">SOBRE O EVENTO</a></li>
+                    <li class="nav-item"><a href="#keynotes">KEYNOTES</a></li>
+                    <li class="nav-item">
+                      <span class="isDisabled">
+                        <a href="#">PROGRAMAÇÃO <span class="badge badge-pill badge-warning">Breve</span></a>
+                      </span>
+                    </li class="nav-item">
+                    <li class="nav-item">
+                      <span class="isDisabled">
+                        <a href="#">PATROCINADORES <span class="badge badge-pill badge-warning">Breve</span></a></li>
+                      </span>
+                    <li class="nav-item"><a href="#inscricao">INSCREVA-SE</a></li>
+                    <li class="nav-item">
+                      <span class="isDisabled">
+                        <a href="#">HOTÉIS <span class="badge badge-pill badge-warning">Breve</span></a>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
               </nav>
             </div>
           </div>
@@ -63,7 +91,7 @@
       <div id="masthead-body">
         <div class="container">
           <div class="row">
-            <div class="offset-lg-2">
+            <div class="offset-lg-2 col-lg-9">
               <h1><span class="maior">24 A 26 DE</span><span class="hiper"> MAIO 2018</span></h1>
               <h4>PARTICIPE DO <span class="black">MAIOR EVENTO DE PYTHON</span> DA REGIÃO!</h4>
               <p>
@@ -74,8 +102,10 @@
             </div>
           </div>
           <div class="row">
-            <div class="offset-lg-5">
-              <a href="#inscricao" class="btn btn-inscreva">INSCREVA-SE</a>
+            <div class="col-lg-12">
+              <div class="d-flex justify-content-center">
+                <a href="#inscricao" class="btn btn-inscreva">INSCREVA-SE</a>
+              </div>
             </div>
           </div>
         </div>
@@ -83,7 +113,7 @@
     </section>
     <section id="sobre-evento" class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 offset-1 col-10">
           <a href="https://speakerfight.com/events/python-nordeste-2018-24-25-e-26-de-maio-campina-grandepb" target="_blank">
             <img src="img/ico-palestras.png" alt="Ícone referente a palestras">
             <h6>SUBMETA PALESTRAS</h6>
@@ -93,7 +123,7 @@
             </p>
           </a>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 offset-1 col-10">
           <img src="img/ico-artigos.png" alt="Ícone referente a artigos">
           <h6>APRENDA A PROGRAMAR EM PYTHON</h6>
           <p>
@@ -102,7 +132,7 @@
             para produzir código bom e de maneira fácil e rápida de manter.
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 offset-1 col-10">
           <a href="#keynotes">
             <img src="img/ico-keynotes.png" alt="Ícone referente a keynotes">
             <h6>LISTA DE KEYNOTES</h6>
@@ -114,7 +144,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 offset-1 col-10">
           <img src="img/ico-dicas.png" alt="Ícone referente a dicas">
           <h6>CÓDIGO PYTHONICO</h6>
           <p>
@@ -124,7 +154,7 @@
             principal para definir se um código é idomático ou não.
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 offset-1 col-10">
           <img src="img/ico-carreira.png" alt="Ícone referente a carreira">
           <h6>CARREIRA DE QUEM PROGRAMA EM PYTHON</h6>
           <p>
@@ -134,7 +164,7 @@
             Rio de Janeiro e Porto Alegre fecham o trio de cidades mais promissoras para quem é da área de programação.
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 offset-1 col-10">
           <img src="img/ico-download.png" alt="Ícone referente a downloads">
           <h6>DOWNLOAD DA PROGRAMAÇÃO <span class="badge badge-pill badge-warning">Em Breve</span></h6>
         </div>
@@ -142,7 +172,7 @@
     </section>
     <section id="keynotes" class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 offset-1 col-10">
           <img src="img/jessica-temporal.png" alt="Foto perfil de Jessica Temporal">
           <h4>Jessica Temporal</h4>
           <h6>DESENVOLVEDORA E CIENTISTA DE DADOS</h6>
@@ -153,7 +183,7 @@
             processamento de linguagem natural durante a graduação.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 offset-1 col-10">
           <img src="img/fernando-masanori.png" alt="Foto perfil de Fernando Masanori">
           <h4>Fernando Masanori</h4>
           <h6>PROFESSOR</h6>
@@ -167,7 +197,7 @@
             (Coletivo Difusão), USP São Carlos, Federal de São Carlos, UDESC Joinville e Curitiba (Unipositivo).
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 offset-1 col-10">
           <img src="img/luciano-ramalho.png" alt="Foto perfil de Luciano Ramalho">
           <h4>Luciano Ramalho</h4>
           <h6>CONSULTOR TÉCNICO</h6>
@@ -179,7 +209,7 @@
             no Brasil (Recife, Belo Horizonte, Porto Alegre e São Paulo) e mais 11 países.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 offset-1 col-10">
           <img src="img/fernanda-campagnucci.png" alt="Foto perfil de Fernanda Campagnucci">
           <h4>Fernanda Campagnucci</h4>
           <h6>JORNALISTA E MESTRE EM EDUCAÇÃO</h6>

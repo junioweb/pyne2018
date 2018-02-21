@@ -1,9 +1,13 @@
 var $meuMenu = $('#masthead-header');
 var offset = $meuMenu.offset().top;
 
-$('#logo-secundaria').hide();
+if ($(window).width() >= 768) {
+  $('#logo-secundaria').hide();
+}
 
 $(document).on('scroll', function () {
+    if ($(window).width() < 768) { return; }
+
     if (offset <= $(window).scrollTop()) {
         $meuMenu.addClass('fixar');
 
@@ -15,11 +19,10 @@ $(document).on('scroll', function () {
           $('#logo-secundaria').show();
         });
     } else {
-        $meuMenu.removeClass('fixar');
+      $meuMenu.removeClass('fixar');
 
-        
-        $('#logo').show();
-        $('#logo-secundaria').hide();
+      $('#logo').show();
+      $('#logo-secundaria').hide();
     }
 });
 
