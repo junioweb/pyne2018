@@ -2,7 +2,7 @@ var $meuMenu = $('#masthead-header');
 var offset = $meuMenu.offset().top;
 
 if ($(window).width() >= 768) {
-  $('#logo-secundaria').hide();
+    $('#logo-secundaria').hide();
 }
 
 $(document).on('scroll', function () {
@@ -19,10 +19,10 @@ $(document).on('scroll', function () {
           $('#logo-secundaria').show();
         });
     } else {
-      $meuMenu.removeClass('fixar');
+        $meuMenu.removeClass('fixar');
 
-      $('#logo').show();
-      $('#logo-secundaria').hide();
+        $('#logo').show();
+        $('#logo-secundaria').hide();
     }
 });
 
