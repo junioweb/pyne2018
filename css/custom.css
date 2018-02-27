@@ -201,6 +201,42 @@ a:hover {
   color: #e84545;
 }
 
+#patrocinadores {
+  font-family: 'ralewayregular';
+  font-size: 12px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+#patrocinadores h3 {
+  font-family: 'ralewaylight';
+}
+
+.btn-seja-patrocinador {
+  font-family: 'ralewaysemibold';
+  font-size: 22px;
+  width: 300px;
+  height: 46px;
+  background-color: #e84545;
+  color: #fff;
+  margin-top: -7px;
+  margin-left: 12px;
+}
+
+#patrocinadores-body{
+  margin-top: 50px;
+}
+
+#patrocinadores-body h4{
+  font-family: 'ralewaybold';
+  margin-bottom: 50px;
+}
+
+#patrocinadores-body h5{
+  font-family: 'exo_2regular';
+  margin: 30px 0 30px 0;
+}
+
 #redes-sociais {
   background-color: #690923;
   color: #fff;
