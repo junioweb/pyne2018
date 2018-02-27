@@ -133,7 +133,7 @@ a:hover {
 #menu-principal ul {
   list-style: none;
   height: auto;
-  padding: 24px;
+  padding: 15px;
   margin: 0;
 }
 
@@ -175,7 +175,7 @@ a:hover {
   padding-top: 25px;
 }
 
-#sobre-evento p {
+.topicos p {
   padding-bottom: 50px;
 }
 
@@ -305,6 +305,7 @@ a:hover {
 
   #keynotes {
     padding: 0 30px 0 30px;
+    padding-top: 130px;
   }
 
   #menu-principal ul {
