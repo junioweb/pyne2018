@@ -201,6 +201,31 @@ a:hover {
   color: #e84545;
 }
 
+#programacao {
+  font-family: 'exo_2regular';
+  font-size: 14px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+#programacao .nav {
+  margin-bottom: 20px;
+}
+
+#programacao .nav-link {
+  font-family: 'exo_2black';
+  color: #000 !important;
+}
+
+#programacao .nav-link:hover {
+  color: #44010d !important;
+}
+
+#programacao .nav-link.active {
+  background-color: #e84545 !important;
+  color: #fff !important;
+}
+
 #patrocinadores {
   font-family: 'ralewayregular';
   font-size: 12px;

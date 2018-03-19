@@ -26,7 +26,7 @@ $(document).on('scroll', function () {
     }
 });
 
-$('a[href^="#"]').on('click', function(e) {
+$('#menu-principal a[href^="#"]').on('click', function(e) {
   e.preventDefault();
   var id = $(this).attr('href'),
   targetOffset = $(id).offset().top;
