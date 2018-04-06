@@ -82,7 +82,11 @@ a:hover {
 }
 
 #masthead-body {
-  padding-top: 200px;
+  padding-top: 100px;
+}
+
+#masthead-body .carousel-principal {
+  margin-top: -50px;
 }
 
 .logo {
@@ -324,6 +328,10 @@ a:hover {
 
   #masthead-body {
     padding-top: 90px;
+  }
+
+  #masthead-body .carousel-principal {
+    display: none;
   }
 
   #principal {
