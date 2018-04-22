@@ -86,7 +86,7 @@ a:hover {
 }
 
 .logo {
-  width: 234px;
+  width: 180px;
   height: 287px;
   margin-top: -17px;
   background-image: url(../img/bg-logo.png);
@@ -102,7 +102,7 @@ a:hover {
 }
 
 .logo-secundaria {
-  width: 231px;
+  width: 180px;
   height: 71px;
   position: absolute;
   background-color: #fff;
